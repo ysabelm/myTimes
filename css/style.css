@@ -1,19 +1,60 @@
+/* Universal Styles */
+
 body {
-  font-family: Georgia;
+  margin: 0;
+  font-family: "Georgia", serif;
   font-size: 17px;
   color: black;
 }
 
-nav span {
-
-}
-
 a {
-	color: black;
+  color: black;
 }
 
-div {
-	border: 1px solid black;
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Universal Styles - News Stories */
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .text-content {
+  height: 250px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.narrative {
+  margin-top: 16px;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 /* Main content style */
@@ -84,6 +125,8 @@ header nav {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   width: 630px;
   margin-top: 0;
+  text-align: left;
+  font-size: 40px;
 }
 
 .fall-cancelled.image-content {
