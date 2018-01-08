@@ -176,3 +176,33 @@ img.cookie {
 .bite span {
   padding-left: 11px;
 }
+
+/* Footer style */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: mediumaquamarine;
+  margin: auto;
+  font-family: "Verdana", sans-serif;
+  font-size: 12px;
+}
+
+footer .title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
